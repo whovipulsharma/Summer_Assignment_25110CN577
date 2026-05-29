@@ -1,0 +1,23 @@
+
+import java.util.Scanner;
+
+public class Q4 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int n = sc.nextInt();
+        int t = n;
+        int s = 0;
+        while (n != 0) {
+            int d = n % 10;
+            s = s * 10 + d;
+            n /= 10;
+        }
+        if (s == t) {
+            System.out.println("Entered number is palindrome."); 
+        }else {
+            System.out.println("Entered number is not palindrome.");
+        }
+    }
+}
