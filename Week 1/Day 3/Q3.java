@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class Q3{
+public class Q3
+{
 
     static int gcd(int n1, int n2) {
         int g = 1;

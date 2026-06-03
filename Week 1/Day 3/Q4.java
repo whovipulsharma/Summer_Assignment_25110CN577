@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class Q4 {
+public class Q4 
+{
 
     static int lcm(int n1, int n2) {
         int m = (n1 > n2) ? n1 : n2;
