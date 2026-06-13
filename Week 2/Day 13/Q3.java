@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+public class Q3{
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+     System.out.print("Enter the size of array: ");
+     int n=sc.nextInt();
+     int a[]=new int[n];
+     System.out.println("Enter the elements of array: ");
+     for (int i = 0; i < n; i++) {
+         a[i]=sc.nextInt();
+     }
+     int ma=a[0];
+     int mi=a[0];
+     System.out.println("Entered array: ");
+     for (int i = 0; i < n; i++) {
+         System.out.print(a[i]+" ");
+         if(a[i]>ma)
+         ma=a[i];
+         if(a[i]<mi)
+         mi=a[i];
+     }
+     System.out.println("\nLargest Element: "+ma);
+     System.out.println("Smallest Element: "+mi);
+    }
+}
