@@ -83,7 +83,5 @@ public class Q1 {
 
                 System.out.println("Invalid Choice.");
         }
-
-        sc.close();
     }
 }

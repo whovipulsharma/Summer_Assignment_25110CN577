@@ -88,6 +88,6 @@ public class Q3 {
                 System.out.println("Invalid Choice.");
         }
 
-        sc.close();
+
     }
 }

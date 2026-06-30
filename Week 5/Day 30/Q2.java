@@ -120,6 +120,5 @@ public class Q2 {
                 System.out.println("Invalid Choice.");
         }
 
-        sc.close();
     }
 }

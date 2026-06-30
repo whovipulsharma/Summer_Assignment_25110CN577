@@ -1,6 +1,8 @@
 import java.util.*;
 
-public class Q4 {
+public class Q4
+ 
+ {
 
     static Scanner sc = new Scanner(System.in);
 
